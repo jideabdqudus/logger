@@ -9,6 +9,8 @@ import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
 import './App.css';
+import {Provider} from 'react-redux';
+import store from './store'
 
 const App =()=> {
   useEffect(()=>{
@@ -17,6 +19,7 @@ const App =()=> {
   })
   
   return (
+    <Provider store ={store}>
     <Fragment>
       <SearchBar/>
       <div className="container">
@@ -28,6 +31,7 @@ const App =()=> {
         <TechListModal/>
       </div> 
     </Fragment>
+    </Provider>
   );
 }
 
