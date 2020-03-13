@@ -14,7 +14,7 @@ import store from './store'
 
 const App =()=> {
   useEffect(()=>{
-    // Init Materialize JS
+    // Initialize Materialize JS
     M.AutoInit();
   })
   
