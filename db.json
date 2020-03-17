@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "id": 2,
-      "message": "Corona Left the group chat",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-03-15T13:30:23.130Z"
-    },
-    {
       "message": "Done with this phase ",
       "attention": false,
       "tech": "John Doe",
@@ -27,6 +20,13 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2020-03-16T16:26:14.445Z"
+    },
+    {
+      "id": 5,
+      "message": "Server down - 001",
+      "attention": true,
+      "tech": "Abdul Qudus",
+      "date": "2020-03-17T12:19:25.666Z"
     }
   ],
   "techs": [
@@ -49,6 +49,11 @@
       "firstName": "Abdul",
       "lastName": "Qudus",
       "id": 4
+    },
+    {
+      "firstName": "Aisha",
+      "lastName": "Azeez",
+      "id": 5
     }
   ]
 }

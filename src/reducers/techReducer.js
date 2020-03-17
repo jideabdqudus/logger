@@ -4,7 +4,6 @@ import {
   DELETE_TECH,
   SET_LOADING,
   TECHS_ERROR,
-  DELETE_LOG
 } from "../actions/types";
 
 const initialState = {
